@@ -7,7 +7,11 @@ interface IProps {
 }
 
 export default (props: IProps) => {
+  console.log("aqui 1");
   const listNew = async (userId: number) => {
+
+    console.log("aqui 2");
+
     await fetch(`http://localhost:3000/api/lists`, {
       method: 'POST',
       mode: 'cors',
@@ -18,11 +22,14 @@ export default (props: IProps) => {
       referrerPolicy: 'no-referrer',
       body: JSON.stringify({ userId, name: '...' }),
     });
+
+    console.log("aqui 3");
+
     location.reload();
   };
 
   const listDel = async (id: number) => {
-    await fetch(`https://pwn-trabalho-final.herokuapp.com/api/lists/${id}`, {
+    await fetch(`http://localhost:3000/api/lists/${id}`, {
       method: 'DELETE',
       mode: 'cors',
       cache: 'no-cache',
