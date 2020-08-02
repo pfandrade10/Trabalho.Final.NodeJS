@@ -2,8 +2,6 @@
 
 > Trabalho final da disciplina Programação Web com Node.js (PWN) do curso Desenvolvimento Web Fullstack da PUC Minas promovido pelo professor [Samuel Martins](https://github.com/samwx)
 
-<!--- Adicionar uma foto/gif final do projeto aqui -->
-
 ## Enunciado 📜
 
 #### TO-DO Lists
@@ -30,50 +28,13 @@ Os trabalhos entregues em container docker irão receber ​**5pts extras.** Nes
 ## Instalação 💻
 
 ```sh
-    git clone https://github.com/VictorGazzinelli/Trabalho-Final-PWN.git
-    cd Trabalho-Final-PWN 
+    git clone https://github.com/pfandrade10/Trabalho.Final.NodeJS.git
+    cd Trabalho.Final.NodeJS 
     npm install
     npm start
-```
 
-## Milestones 🚩
+## Autores
 
-* [x] Criar repositorio do projeto
-* [x] Convidar integrantes do grupo
-* [ ] Implementação do back-end 
-    * [x] Adicionar dependencias relacionadas ao [Express](https://expressjs.com/pt-br/) para mapear as rotas da API
-    * [x] Instanciar um banco de dados [Postgre](https://www.postgresql.org/) "as a service" com o [ElephantSQL](https://www.elephantsql.com/)
-    * [x] Adicionar dependencias relacionadas ao [Sequelize](https://sequelize.org/) para realizar operações 
-    * [x] Executar script de migrations
-    * [x] Proteger dependencias de ambiente utilizando [Dotenv](https://www.npmjs.com/package/dotenv)
-    * [x] CRUD Usuário
-    * [x] CRUD Lista
-    * [x] CRUD Tarefa
-    * [x] Construir e proteger as rotas autenticadas com [Passport.js](http://www.passportjs.org/) utilizando login do Github
- 
-* [ ] Implementação do front-end 
-    * [ ] Adicionar Rota/Pagina de Login
-    * [ ] Adicionar Rota/Pagina de Listas
-    * [ ] Adicionar Rota/Pagina de Tarefas
-* [ ] Publicação da solução no [Heroku](https://www.heroku.com/)
+Camila Taborda – [https://github.com/CamilaTaborda](https://github.com/CamilaTaborda) – camilatabordasc@gmail.com
 
-## Extras 🔥
-* [ ] Exportar os modulos como contaniers usando [Docker](https://www.docker.com/)
-* [ ] Implementar [Typescript](https://www.typescriptlang.org/) para melhor organização e compreensão do projeto
-* [ ] Implementar [Swagger](https://swagger.io/) para melhor documentacao da API.
-* [ ] Implementar validação das requests recebidas pela API.
-* [ ] Implementar testes.
-* [ ] Adotar design patterns!
-
-## Changelog 🧐
-
-* 0.0.1
-    * Versão base da API
-
-## Autores 👨‍💻
-
-Victor Gazzinelli – [https://github.com/VictorGazzinelli](https://github.com/VictorGazzinelli) – vpezzigc@gmail.com
-
-Lucas Viana – [https://github.com/lcasviana](https://github.com/lcasviana) – lcasviana@gmail.com
-
-Alex Miller – [https://github.com/alexmillerc](https://github.com/alexmillerc) – alexmillerc@gmail.com
+Pedro Andrade – [https://github.com/pfandrade10](https://github.com/pfandrade10) – pfandrade10@hotmail.com
