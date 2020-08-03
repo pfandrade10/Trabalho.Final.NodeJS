@@ -22,16 +22,16 @@ const githubRouter = require('./routes/auth/github');
 const app = express();
 require('./config/github.strategy');
 
-// // view engine setup
-// console.log(__dirname)
-// app.set('views', path.join(__dirname, 'views'));
-// app.set('view engine', 'hbs');
+// view engine setup
+console.log(__dirname)
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'hbs');
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-// app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Set passport configs
 app.use(require('express-session')({ secret: 'shhhh...', resave: true, saveUninitialized: true }));
