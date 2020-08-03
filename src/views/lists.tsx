@@ -12,7 +12,7 @@ export default (props: IProps) => {
 
     console.log("aqui 2");
 
-    await fetch(`http://localhost:3000/api/lists`, {
+    await fetch(`https://trabalho-final-node.herokuapp.com/api/lists`, {
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
@@ -29,7 +29,7 @@ export default (props: IProps) => {
   };
 
   const listDel = async (id: number) => {
-    await fetch(`http://localhost:3000/api/lists/${id}`, {
+    await fetch(`https://trabalho-final-node.herokuapp.com/api/lists/${id}`, {
       method: 'DELETE',
       mode: 'cors',
       cache: 'no-cache',

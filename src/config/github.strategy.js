@@ -6,7 +6,7 @@ passport.use(
     {
       clientID: "Iv1.a5fae71cefa30900",
       clientSecret: "7d2e8d68922df46bd83edc30fd161b392c542777",
-      callbackURL: "http://localhost:3000/auth/github/callback",
+      callbackURL: "https://trabalho-final-node.herokuapp.com/auth/github/callback",
       scope: 'user:email',
     },
     function(accessToken, refreshToken, profile, done) {

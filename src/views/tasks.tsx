@@ -8,7 +8,7 @@ interface IProps {
 
 export default (props: IProps) => {
   const listPut = async (userId: number, name: string) => {
-    await fetch(`https://pwn-trabalho-final.herokuapp.com/api/lists`, {
+    await fetch(`https://trabalho-final-node.herokuapp.com/api/lists`, {
       method: 'PUT',
       mode: 'cors',
       cache: 'no-cache',
@@ -22,7 +22,7 @@ export default (props: IProps) => {
   };
 
   const taskNew = async (listId: number) => {
-    await fetch(`https://pwn-trabalho-final.herokuapp.com/api/tasks`, {
+    await fetch(`https://trabalho-final-node.herokuapp.com/api/tasks`, {
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
@@ -36,7 +36,7 @@ export default (props: IProps) => {
   };
 
   const taskPut = async (listId: number, name: string, isDone: boolean) => {
-    await fetch(`https://pwn-trabalho-final.herokuapp.com/api/tasks`, {
+    await fetch(`https://trabalho-final-node.herokuapp.com/api/tasks`, {
       method: 'PUT',
       mode: 'cors',
       cache: 'no-cache',
@@ -50,7 +50,7 @@ export default (props: IProps) => {
   };
 
   const taskDel = async (id: number) => {
-    await fetch(`https://pwn-trabalho-final.herokuapp.com/api/tasks/${id}`, {
+    await fetch(`https://trabalho-final-node.herokuapp.com/api/tasks/${id}`, {
       method: 'DELETE',
       mode: 'cors',
       cache: 'no-cache',
